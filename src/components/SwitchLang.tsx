@@ -26,11 +26,11 @@ const localeText = (locale: string): string => {
     case 'hi':
       return '🇮🇳 हिन्दी'
     case 'id':
-      return '🇮🇩 Indonesia'
+      return '🇮🇩 Indie'
     case 'tr-TR':
       return '🇹🇷 Türkçe'
     default:
-      return '💯 浏览器默认'
+      return '💯 默认选择'
   }
 }
 
