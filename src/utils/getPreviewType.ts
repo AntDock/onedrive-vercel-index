@@ -32,7 +32,7 @@ export const extensions = {
   pptx: preview.office,
   xls: preview.office,
   xlsx: preview.office,
-  ppsx: preview.office
+  ppsx: preview.office,
 
   c: preview.code,
   cpp: preview.code,
