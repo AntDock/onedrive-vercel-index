@@ -17,10 +17,10 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "NFLSixer 笔共云",
+  title: "知班网盘",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/班级共享',
+  baseDirectory: '/Desktop/所有文件',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -38,14 +38,14 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    '南京外国语学校 2020 级初三六班 <a href="https://nflsixer.top" target="_blank" rel="noopener noreferrer">NFLSixer</a> 信息系统。❤ 来自 NFLSCPN，共享资料，尽快自取，低调使用。',
+    '南京外国语学校 2020 级高一二班信息系统。❤ 来自知班，共享资料，尽快自取，低调使用。',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/实时桌面课件', '/重要笔记资料'],
+  protectedRoutes: ['/所有文件'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:cpncloud@nflsixer.top',
+  email: 'mailto:zhi@zhehanz.com',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
